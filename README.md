@@ -22,7 +22,8 @@ node main.ts
 ```
 
 It writes the line to `/output/entry.txt` (65 characters, no network access,
-no files read).
+no files read). Set `MAKEFUN_OUTPUT_DIR` to write to a different directory
+instead (e.g. `MAKEFUN_OUTPUT_DIR=/tmp/out node main.ts`).
 
 ## License
 
